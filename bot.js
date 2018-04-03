@@ -515,7 +515,7 @@ message.channel.send({embed: {
       },
       {
         name: "Info:",
-        value: "s!help Creates this Embed!\ns!invite Creates an invite link for me!\ns!userinfo <user> Shows some infos about an User!\ns!serverinfo Shows some infos about the current Server!\ns!avatar <user> Shows the avatar from an User!\ns!about Shows some infos about the bot!\ns!ping Checks if the Bot is Online and shows the ping!\ns!shorten <URL> Shorten a URL!\ns!membercount Shows how many Users are in the Server!"
+        value: "s!help Creates this Embed!\ns!invite Creates an invite link for me!\ns!userinfo <user> Shows some infos about an User!\ns!serverinfo Shows some infos about the current Server!\ns!avatar <user> Shows the avatar from an User!\ns!about Shows some infos about the bot!\ns!ping Checks if the Bot is Online and shows the ping!\ns!shorten <URL> Shorten a URL!\ns!membercount Shows how many Users are in the Server!\ns!say Make the bot say something!"
       },
       {
         name: "Fun:",
