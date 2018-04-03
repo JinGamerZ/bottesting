@@ -329,6 +329,17 @@ let member = message.mentions.members.first();
   console.log(`[Command Log] ${message.author.username} has used the avatar Command!`)
 }
 
+//say
+if(command === `say`) {
+    const sayMessage = args.join(" ");
+    // Then we delete the command message (sneaky, right?). The catch just ignores the error with a cute smiley thing.
+    message.delete().catch(O_o=>{}); 
+    // And we get the bot to say the thing: 
+    message.channel.send(sayMessage);
+    
+    console.log(`[Command Log] ${message.author.username} has used the say Command!`)
+  }
+	
 //kick
 if(command === `kick`) {
     if(!message.member.hasPermission("KICK_MEMBERS")) return message.channel.sendMessage("You don't have the Perms to execute this Command!")
