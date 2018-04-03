@@ -511,15 +511,15 @@ message.channel.send({embed: {
     description: "***There you have all commands from Sopu:***",
     fields: [{
         name: "***Moderation:***",
-        value: "s!ban <user> Bans a member from the Server!\n>unban <id> Unbans a User from the Server\n>kick <user> Kicks a member from the Server!\n>mute <user> Mutes a User!\n>unmute <user> Unmutes a muted User!\n>clearall Clears the whole Channel!\n>clear <amount> Clears a amount of messages!\n>warn <message> Creates a warning message!"
+        value: "s!ban <user> Bans a member from the Server!\ns!unban <id> Unbans a User from the Server\ns!kick <user> Kicks a member from the Server!\ns!mute <user> Mutes a User!\ns!unmute <user> Unmutes a muted User!\ns!clearall Clears the whole Channel!\ns!clear <amount> Clears a amount of messages!\ns!warn <message> Creates a warning message!"
       },
       {
         name: "Info:",
-        value: "s!help Creates this Embed!\n>invite Creates an invite link for me!\n>userinfo <user> Shows some infos about an User!\n>serverinfo Shows some infos about the current Server!\n>avatar <user> Shows the avatar from an User!\n>about Shows some infos about the bot!\n>ping Checks if the Bot is Online and shows the ping!\n>shorten <URL> Shorten a URL!\n>membercount Shows how many Users are in the Server!"
+        value: "s!help Creates this Embed!\ns!invite Creates an invite link for me!\ns!userinfo <user> Shows some infos about an User!\ns!serverinfo Shows some infos about the current Server!\ns!avatar <user> Shows the avatar from an User!\ns!about Shows some infos about the bot!\ns!ping Checks if the Bot is Online and shows the ping!\ns!shorten <URL> Shorten a URL!\ns!membercount Shows how many Users are in the Server!"
       },
       {
         name: "Fun:",
-        value: "s!clapify <text> Clapify's something!\ns!bigtext <text> Makes a Word/Sentence bigger!\ns!door <text> Sends something out the door!\ns!embed <text> Creates a little embed!\ns!8ball <question> Find the answer for your Question!\ns!roast <user> Roast someone!\n>img Sends a random image!\ns!gif Sends a random gif!\ns!cookie <user> Give someone a cookie!\ns!coinflip Flip a coin!"
+        value: "s!clapify <text> Clapify's something!\ns!bigtext <text> Makes a Word/Sentence bigger!\ns!door <text> Sends something out the door!\ns!embed <text> Creates a little embed!\ns!8ball <question> Find the answer for your Question!\ns!roast <user> Roast someone!\ns!img Sends a random image!\ns!gif Sends a random gif!\ns!cookie <user> Give someone a cookie!\ns!coinflip Flip a coin!"
       },
       {
         name: "Currency:",
