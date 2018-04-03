@@ -511,23 +511,19 @@ message.channel.send({embed: {
     description: "***There you have all commands from Sopu:***",
     fields: [{
         name: "***Moderation:***",
-        value: ">ban <user> Bans a member from the Server!\n>unban <id> Unbans a User from the Server\n>kick <user> Kicks a member from the Server!\n>mute <user> Mutes a User!\n>unmute <user> Unmutes a muted User!\n>clearall Clears the whole Channel!\n>clear <amount> Clears a amount of messages!\n>warn <message> Creates a warning message!"
+        value: "s!ban <user> Bans a member from the Server!\n>unban <id> Unbans a User from the Server\n>kick <user> Kicks a member from the Server!\n>mute <user> Mutes a User!\n>unmute <user> Unmutes a muted User!\n>clearall Clears the whole Channel!\n>clear <amount> Clears a amount of messages!\n>warn <message> Creates a warning message!"
       },
       {
         name: "Info:",
-        value: ">help Creates this Embed!\n>invite Creates an invite link for me!\n>userinfo <user> Shows some infos about an User!\n>serverinfo Shows some infos about the current Server!\n>avatar <user> Shows the avatar from an User!\n>about Shows some infos about the bot!\n>ping Checks if the Bot is Online and shows the ping!\n>shorten <URL> Shorten a URL!\n>membercount Shows how many Users are in the Server!"
+        value: "s!help Creates this Embed!\n>invite Creates an invite link for me!\n>userinfo <user> Shows some infos about an User!\n>serverinfo Shows some infos about the current Server!\n>avatar <user> Shows the avatar from an User!\n>about Shows some infos about the bot!\n>ping Checks if the Bot is Online and shows the ping!\n>shorten <URL> Shorten a URL!\n>membercount Shows how many Users are in the Server!"
       },
       {
         name: "Fun:",
-        value: ">clapify <text> Clapify's something!\n>bigtext <text> Makes a Word/Sentence bigger!\n>door <text> Sends something out the door!\n>embed <text> Creates a little embed!\n>8ball <question> Find the answer for your Question!\n>roast <user> Roast someone!\n>img Sends a random image!\n>gif Sends a random gif!\n>cookie <user> Give someone a cookie!\n>coinflip Flip a coin!"
-      },
-      {
-        name: "Music:",
-        value: "n!play Plays a Song from YouTube!\nn!skip Skips the current Song!\nn!stop Stops the current Song/Queue!\nn!volume Sets the Volume!\nn!playing Shows the current Song!\nn!queue Shows the Queue!\nn!pause Pauses the current Song!\nn!resume Resumes the paused Song!"
+        value: "s!clapify <text> Clapify's something!\n>bigtext <text> Makes a Word/Sentence bigger!\n>door <text> Sends something out the door!\n>embed <text> Creates a little embed!\n>8ball <question> Find the answer for your Question!\n>roast <user> Roast someone!\n>img Sends a random image!\n>gif Sends a random gif!\n>cookie <user> Give someone a cookie!\n>coinflip Flip a coin!"
       },
       {
         name: "Currency:",
-        value: ">Sopus <user> <amount> Gives a member some Sopus..No you cant do anything with them :joy:"
+        value: "s!Sopus <user> <amount> Gives a member some Sopus..No you cant do anything with them :joy:"
       }
     ],
     timestamp: new Date(),
