@@ -19,7 +19,7 @@ client.on("ready", () => {
 });
 
 client.on('ready', () => {
-  client.user.setActivity('Hello, s!help', {type: 1})
+  client.user.setActivity('Use -> s!help', {type: 1})
 })
 
 client.on('guildDelete', guild => {
