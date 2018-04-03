@@ -69,7 +69,7 @@ client.on('message', async message => { // eslint-disable-line
       .addField("***Playing:***", member.user.presence.game)
       .addField("***Status:***", member.user.presence.status)
       .addField("***Account Created At:***", member.user.createdAt)
-      .setFooter(`Userinfo created by Yuna`);
+      .setFooter(`Userinfo created by Sopu`);
 			
 
 			message.channel.sendEmbed(embed);
@@ -172,9 +172,9 @@ const sayMessage = args.join(" ");
 }
   
 if(command === `shutdown`) {
-  if(message.author.id === "398167269764759583") {
+  if(message.author.id === "311679965420716043") {
     let embed = new Discord.RichEmbed()
-      .setDescription(`**Yuna-Bot 1.8 is shutting down...**`)
+      .setDescription(`**Sopu-Bot 1.8 is shutting down...**`)
       .setColor(Math.floor(Math.random() * 16777214) + 1,)
       message.channel.sendEmbed(embed);
     client.destroy();
@@ -350,7 +350,7 @@ if(command === `kick`) {
       .setColor(Math.floor(Math.random() * 16777214) + 1,)
       .addField("***Kicked by:***", message.author.username)
       .addField("***Because:***", `${reason}`)
-      .setFooter(`User kicked by Yuna Bot 1.8`);
+      .setFooter(`User kicked by Sopu Bot 1.8`);
 
       message.channel.sendEmbed(embed);
   
@@ -370,25 +370,25 @@ if(command === `invite`) {
 if(command === `about`) {
 message.channel.send({embed: {
     color: 3447003,
-    title: "**Yuna Bot 1.8**",
+    title: "**Sopu Bot 1.8**",
     description: "***A Bot to have fun with!***",
     fields: [{
-        name: "Why Yuna ?",
-        value: "Yuna is 24/7 Online [Except for maintenance]\nThe bot has many features\nYou can almost do anything with her :smile:"
+        name: "Why Sopu ?",
+        value: "Sopu is 24/7 Online [Except for maintenance]\nThe bot has many features\nYou can almost do anything with her :smile:"
       },
       {
         name: "Need Help or just want to Support the Bot?",
-        value: "Join now the Official Yuna [Discord-Server](https://discordapp.com/invite/N3XHxm7) and be part of the community!"
+        value: "Join now the Official Sopu [Discord-Server](https://discordapp.com/invite/N3XHxm7) and be part of the community!"
       },
       {
-        name: "Upvote for Yuna!",
-        value: "You can upvote Yuna here :point_right: [Upvote Now](https://discordbots.org/bot/415891116517490698) or here: [Upvote Now](https://bots.discord.pw/bots/415891116517490698)"
+        name: "Upvote for Sopu!",
+        value: "You can upvote Sopu here :point_right: [Upvote Now](https://discordbots.org/bot/415891116517490698) or here: [Upvote Now](https://bots.discord.pw/bots/415891116517490698)"
       }
     ],
     timestamp: new Date(),
     footer: {
       icon_url: bot.user.avatarURL,
-      text: "About Yuna"
+      text: "About Sopu"
     }
   }
 });
@@ -417,7 +417,7 @@ if(command === `ban`) {
       .setColor(Math.floor(Math.random() * 16777214) + 1,)
       .addField("***Banned by:***", message.author.username)
       .addField("***Because:***", `${reason}`)
-      .setFooter(`User banned by Yuna Bot 1.8`);
+      .setFooter(`User banned by Sopu Bot 1.8`);
 
       message.channel.sendEmbed(embed);
   
@@ -436,7 +436,7 @@ if(command === `unban`) {
       .setDescription(`**${user} has been successfully unbanned!**`)
       .setColor(Math.floor(Math.random() * 16777214) + 1,)
       .addField("***Unbanned by:***", message.author.username)
-      .setFooter(`User unbanned by Yuna Bot 1.8`);
+      .setFooter(`User unbanned by Sopu Bot 1.8`);
       
 
       message.channel.sendEmbed(embed);
@@ -496,8 +496,8 @@ if(command === `embed`) {
 if(command === `help`) {
 message.channel.send({embed: {
     color: Math.floor(Math.random() * 16777214) + 1,
-    title: "**Yuna 1.8 Command-List**",
-    description: "***There you have all commands from Yuna:***",
+    title: "**Sopu 1.8 Command-List**",
+    description: "***There you have all commands from Sopu:***",
     fields: [{
         name: "***Moderation:***",
         value: ">ban <user> Bans a member from the Server!\n>unban <id> Unbans a User from the Server\n>kick <user> Kicks a member from the Server!\n>mute <user> Mutes a User!\n>unmute <user> Unmutes a muted User!\n>clearall Clears the whole Channel!\n>clear <amount> Clears a amount of messages!\n>warn <message> Creates a warning message!"
@@ -516,13 +516,13 @@ message.channel.send({embed: {
       },
       {
         name: "Currency:",
-        value: ">Yunas <user> <amount> Gives a member some Yunas..No you cant do anything with them :joy:"
+        value: ">Sopus <user> <amount> Gives a member some Sopus..No you cant do anything with them :joy:"
       }
     ],
     timestamp: new Date(),
     footer: {
     icon_url: client.user.avatarURL,
-      text: `About Yuna Bot requested by ${message.author.username}`
+      text: `About Sopu Bot requested by ${message.author.username}`
     }
   }
 });
@@ -575,7 +575,7 @@ if(command === `coinflip`) {
 }
 
 //yunas
-if(command === `yunas`) {
+if(command === `sopus`) {
   let member = message.mentions.members.first();
     if(!member)
       return message.reply("Please mention a valid member of this server");
