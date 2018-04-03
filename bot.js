@@ -19,7 +19,7 @@ client.on("ready", () => {
 });
 
 client.on('ready', () => {
-  client.user.setActivity('with fire', {type: 1})
+  client.user.setActivity('with fire', {type: 2})
 })
 
 client.on('guildDelete', guild => {
