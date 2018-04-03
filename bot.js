@@ -519,7 +519,7 @@ message.channel.send({embed: {
       },
       {
         name: "Fun:",
-        value: "s!clapify <text> Clapify's something!\n>bigtext <text> Makes a Word/Sentence bigger!\n>door <text> Sends something out the door!\n>embed <text> Creates a little embed!\n>8ball <question> Find the answer for your Question!\n>roast <user> Roast someone!\n>img Sends a random image!\n>gif Sends a random gif!\n>cookie <user> Give someone a cookie!\n>coinflip Flip a coin!"
+        value: "s!clapify <text> Clapify's something!\ns!bigtext <text> Makes a Word/Sentence bigger!\ns!door <text> Sends something out the door!\ns!embed <text> Creates a little embed!\ns!8ball <question> Find the answer for your Question!\ns!roast <user> Roast someone!\n>img Sends a random image!\ns!gif Sends a random gif!\ns!cookie <user> Give someone a cookie!\ns!coinflip Flip a coin!"
       },
       {
         name: "Currency:",
